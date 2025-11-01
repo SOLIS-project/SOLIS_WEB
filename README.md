@@ -6,7 +6,7 @@ This is a static website built with plain HTML, CSS, and JavaScript - no build t
 
 ## 🌐 Live Site
 
-Visit the live website at: `https://[your-github-username].github.io/SOLIS-website/`
+Visit the live website at: `https://SOLIS-project.github.io/SOLIS-website/`
 
 ## 📋 About This Website
 
