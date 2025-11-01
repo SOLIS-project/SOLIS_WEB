@@ -1,0 +1,145 @@
+IMAGE PLACEHOLDERS FOR SOLIS WEBSITE
+=====================================
+
+Please replace these placeholder files with actual images before deploying the website.
+Below are the required images and their specifications:
+
+REQUIRED IMAGES:
+----------------
+
+1. logo.png
+   - SOLIS project logo
+   - Recommended size: 200-500px width
+   - Format: PNG with transparent background
+   - Used in: Header (all pages)
+   - Source: Use official SOLIS branding
+
+2. logo1.png
+   - European Union flag or Horizon Europe logo
+   - Recommended size: 300-500px width
+   - Format: PNG
+   - Used in: Footer (all pages)
+   - Source: Official EU branding guidelines
+   - Download from: https://european-union.europa.eu/priorities-and-actions/eu-funding-programmes/horizon-europe_en
+
+3. hero_project.jpg
+   - Homepage hero background image
+   - Recommended size: 1920x1080px (Full HD)
+   - Format: JPG (optimized for web, <500KB if possible)
+   - Content suggestions:
+     * Laboratory equipment
+     * Thin-film solar cells
+     * Abstract technology/science background
+     * Team working in lab
+   - Used in: Homepage hero section
+   - Alternative: Use a high-quality stock photo (ensure license allows commercial use)
+
+4. team_upc.jpg
+   - Team or lab photo from UPC
+   - Recommended size: 800-1200px width
+   - Format: JPG
+   - Content: Researchers, lab environment, or meeting photo
+   - Used in: News page
+   - Can be replaced with any team photo from consortium
+
+5. team_uniliv.jpg
+   - Team or lab photo from University of Liverpool
+   - Recommended size: 800-1200px width
+   - Format: JPG
+   - Content: Lab equipment, researchers, or facility photo
+   - Used in: News page
+   - Can be replaced with any relevant photo
+
+6. wp_workshops.jpg
+   - Workshop or conference photo
+   - Recommended size: 800-1200px width
+   - Format: JPG
+   - Content: People in meeting/conference/workshop setting
+   - Used in: News page
+   - Alternative: Generic conference room or presentation photo
+
+7. downloads_placeholder.jpg
+   - Generic image for resources/downloads
+   - Recommended size: 600-800px width
+   - Format: JPG
+   - Content suggestions:
+     * Computer code on screen
+     * Data visualization
+     * Abstract tech background
+   - Used in: Resources page
+   - Can use a simple icon or abstract image
+
+TEMPORARY SOLUTION:
+-------------------
+
+If you don't have images ready, you can:
+
+1. Use Placeholder Services (for testing):
+   - https://placehold.co/1920x1080 (for hero)
+   - https://placehold.co/800x600 (for content images)
+   - https://placehold.co/400x400 (for logos)
+
+2. Use Free Stock Photos:
+   - Unsplash: https://unsplash.com (free, attribution appreciated)
+   - Pexels: https://pexels.com (free, no attribution required)
+   - Search terms: "laboratory", "science", "technology", "research"
+
+3. Create Simple Logos:
+   - Use a free tool like Canva: https://canva.com
+   - Create simple text-based logos with project colors
+
+IMAGE OPTIMIZATION:
+-------------------
+
+Before uploading, optimize images:
+
+1. Use online tools:
+   - TinyPNG: https://tinypng.com (PNG compression)
+   - Squoosh: https://squoosh.app (Google's image optimizer)
+
+2. Target file sizes:
+   - Logos: <100KB
+   - Hero image: <500KB
+   - Content images: <300KB
+
+3. Dimensions:
+   - Scale down large images to appropriate display size
+   - Hero: max 1920px wide
+   - Content: max 1200px wide
+
+HOW TO ADD IMAGES:
+------------------
+
+1. Save your images with the exact filenames listed above
+2. Place them in the assets/img/ folder
+3. Upload to GitHub (overwrite these placeholder files)
+4. The website will automatically use the new images
+
+ALTERNATIVE FOLDER STRUCTURE:
+-----------------------------
+
+If you want to organize images differently:
+
+assets/img/
+  logos/
+    - solis-logo.png
+    - eu-logo.png
+  heroes/
+    - homepage-hero.jpg
+  content/
+    - team-1.jpg
+    - team-2.jpg
+    - workshop-1.jpg
+
+Then update the HTML src attributes accordingly in each file.
+
+IMPORTANT NOTES:
+----------------
+
+- Always ensure you have the right to use images (check licenses)
+- For EU logos, follow official branding guidelines
+- Optimize images before uploading (faster website)
+- Use descriptive filenames for better organization
+- Keep aspect ratios appropriate for their use case
+
+For questions about images, contact the project coordinator.

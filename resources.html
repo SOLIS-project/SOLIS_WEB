@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Open-source tools, software, datasets, and documentation from the SOLIS project. Free access to characterization platforms and simulation software.">
+  <title>Resources - SOLIS Project</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo-section">
+          <img src="assets/img/logo.png" alt="SOLIS Project Logo">
+          <span class="site-title">SOLIS Project</span>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙 Dark</button></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 4rem 0; color: white; text-align: center;">
+    <div class="container">
+      <h1 style="font-size: 3rem; margin-bottom: 1rem;">Open Resources</h1>
+      <p style="font-size: 1.3rem; opacity: 0.9;">Free access to tools, software, data, and documentation</p>
+    </div>
+  </section>
+
+  <!-- Open Science Statement -->
+  <section>
+    <div class="container">
+      <div class="content-section">
+        <h2>Our Commitment to Open Science</h2>
+        <p>
+          SOLIS embraces the principles of open science, making all research outputs freely accessible to the global scientific community. We believe that sharing knowledge, methods, and tools accelerates scientific progress and ensures maximum societal impact from publicly-funded research.
+        </p>
+        
+        <div class="highlight-box">
+          <h3>FAIR Principles</h3>
+          <p>All SOLIS resources adhere to FAIR data principles:</p>
+          <ul style="margin-left: 2rem;">
+            <li><strong>Findable:</strong> Permanent DOIs via Zenodo, comprehensive metadata</li>
+            <li><strong>Accessible:</strong> Open licenses (CC-BY, MIT, GPL), no paywalls</li>
+            <li><strong>Interoperable:</strong> Standard formats (CSV, JSON, HDF5), documented APIs</li>
+            <li><strong>Reusable:</strong> Clear documentation, example code, citation guidelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repository Links -->
+  <section style="background-color: var(--light-bg);">
+    <div class="container">
+      <h2 class="section-title">Primary Repositories</h2>
+      
+      <div class="resource-buttons">
+        <a href="https://github.com/SOLIS-project" target="_blank" rel="noopener" class="resource-btn">
+          <span style="font-size: 2rem;">💻</span>
+          <div>
+            <strong>GitHub Organization</strong><br>
+            Source code and software
+          </div>
+        </a>
+        
+        <a href="https://zenodo.org/communities/solis-project" target="_blank" rel="noopener" class="resource-btn">
+          <span style="font-size: 2rem;">📚</span>
+          <div>
+            <strong>Zenodo Community</strong><br>
+            Publications and datasets
+          </div>
+        </a>
+      </div>
+
+      <div class="content-section" style="margin-top: 3rem;">
+        <h3>What You'll Find</h3>
+        <div class="cards-grid">
+          <div class="card">
+            <h4>📂 On GitHub</h4>
+            <ul>
+              <li>Characterization platform software</li>
+              <li>Device modeling tools</li>
+              <li>Neural network simulators</li>
+              <li>Data analysis scripts</li>
+              <li>Documentation and tutorials</li>
+            </ul>
+          </div>
+          
+          <div class="card">
+            <h4>📊 On Zenodo</h4>
+            <ul>
+              <li>Research publications</li>
+              <li>Experimental datasets</li>
+              <li>Project deliverables</li>
+              <li>Conference presentations</li>
+              <li>Training materials</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Downloadable Resources -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Downloadable Resources</h2>
+      <p class="section-subtitle">Software packages, datasets, and documentation</p>
+      
+      <div class="resources-section">
+        
+        <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">Software Tools</h3>
+        
+        <ul class="downloads-list">
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Visual Synapse Characterization Platform v1.0</h4>
+              <p>Complete software package for automated measurement of synaptic plasticity functions. Includes Python control scripts, LabVIEW alternatives, and example datasets.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 45 MB | <strong>License:</strong> MIT | <strong>Released:</strong> Month 12
+              </p>
+            </div>
+            <a href="https://github.com/SOLIS-project/characterization-platform/releases/latest" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Synaptic Network Simulation Suite</h4>
+              <p>Python package for simulating neural networks using experimentally-measured synapse characteristics. Supports custom network topologies and standard ML benchmarks (MNIST, CIFAR-10).</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 28 MB | <strong>License:</strong> GPLv3 | <strong>Released:</strong> Month 45
+              </p>
+            </div>
+            <a href="https://github.com/SOLIS-project/synapse-network-simulator" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>TCAD Device Models for Optical Memristors</h4>
+              <p>Sentaurus and SCAPS model files for simulating thin-film visual synapses. Includes parameter sets for CdTe, kesterite, and Sb₂Se₃ with validated defect models.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 12 MB | <strong>License:</strong> CC-BY 4.0 | <strong>Released:</strong> Month 36
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_tcad" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Data Analysis Toolkit for Synaptic Measurements</h4>
+              <p>Python scripts for extracting synaptic figures of merit from raw measurement data. Automated fitting routines for PPF, STDP, SRDP analysis.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 8 MB | <strong>License:</strong> MIT | <strong>Released:</strong> Month 18
+              </p>
+            </div>
+            <a href="https://github.com/SOLIS-project/analysis-toolkit" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+        </ul>
+
+        <h3 style="color: var(--primary-color); margin: 3rem 0 1.5rem;">Datasets</h3>
+        
+        <ul class="downloads-list">
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Reference Device Dataset: Kesterite Visual Synapses</h4>
+              <p>Comprehensive electrical and optical characterization data from Cu₂ZnSnSe₄-based synapses. Includes JV curves, transient photoconductivity, SRDP, STDP measurements under various illumination conditions.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 2.3 GB | <strong>Format:</strong> CSV, HDF5 | <strong>DOI:</strong> 10.5281/zenodo.example_ds1
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_ds1" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>DLTS Measurements on Sb₂Se₃ Devices</h4>
+              <p>Deep Level Transient Spectroscopy data showing trap state distributions in antimony selenide solar cells before and after light soaking. Temperature range: 80-340 K.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 450 MB | <strong>Format:</strong> CSV | <strong>DOI:</strong> 10.5281/zenodo.example_ds2
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_ds2" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Electrochemical Impedance Spectroscopy Database</h4>
+              <p>EIS, Mott-Schottky, and photoelectrochemistry data from kesterite and chalcohalide devices. Systematic variation of interfaces and selective contacts.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 680 MB | <strong>Format:</strong> JSON, CSV | <strong>DOI:</strong> 10.5281/zenodo.example_ds3
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_ds3" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>DFT Calculation Results: Defects in Chalcogenides</h4>
+              <p>Complete density functional theory results for native defects and defect complexes in CZTSe, Sb₂Se₃, and SbSI. Formation energies, transition levels, and structural relaxations.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 3.1 GB | <strong>Format:</strong> JSON, VASP | <strong>DOI:</strong> 10.5281/zenodo.example_ds4
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_ds4" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+        </ul>
+
+        <h3 style="color: var(--primary-color); margin: 3rem 0 1.5rem;">Documentation & Reports</h3>
+        
+        <ul class="downloads-list">
+          <li class="download-item">
+            <div class="download-info">
+              <h4>D1.1: Characterization Platform Complete Documentation</h4>
+              <p>Hardware specifications, assembly instructions, calibration procedures, software manual, and troubleshooting guide for the open-source visual synapse characterization setup.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Pages:</strong> 85 | <strong>Format:</strong> PDF | <strong>Released:</strong> Month 10
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_d11" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>D3.1: Materials Characterization Report</h4>
+              <p>Comprehensive report identifying which thin-film solar cell technologies function as optical memristors. Includes systematic characterization of CdTe, kesterite, Sb₂Se₃, and Sb₂S₃.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Pages:</strong> 62 | <strong>Format:</strong> PDF | <strong>Released:</strong> Month 24
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_d31" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Training Materials: Introduction to Visual Synapses</h4>
+              <p>Slide decks, video lectures, and hands-on tutorials from SOLIS training workshops. Covers basics of neuromorphic computing, device physics, and characterization methods.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Size:</strong> 420 MB | <strong>Format:</strong> PDF, MP4 | <strong>License:</strong> CC-BY 4.0
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_training" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+
+          <li class="download-item">
+            <div class="download-info">
+              <h4>Data Management Plan</h4>
+              <p>SOLIS project Data Management Plan following FAIR principles and Horizon Europe Open Science guidelines.</p>
+              <p style="font-size: 0.9rem; color: var(--secondary-color);">
+                <strong>Pages:</strong> 18 | <strong>Format:</strong> PDF | <strong>Released:</strong> Month 3
+              </p>
+            </div>
+            <a href="https://zenodo.org/record/example_dmp" target="_blank" rel="noopener" class="download-btn">
+              Download
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Usage Guidelines -->
+  <section style="background-color: var(--light-bg);">
+    <div class="container">
+      <div class="content-section">
+        <h2>How to Use SOLIS Resources</h2>
+        
+        <h3>For Researchers</h3>
+        <ol style="margin-left: 2rem;">
+          <li><strong>Browse repositories:</strong> Visit our GitHub and Zenodo pages to explore available resources</li>
+          <li><strong>Read documentation:</strong> Each software package and dataset includes comprehensive documentation</li>
+          <li><strong>Clone or download:</strong> Use Git to clone repositories or download ZIP archives</li>
+          <li><strong>Install dependencies:</strong> Follow README instructions for environment setup</li>
+          <li><strong>Run examples:</strong> Test with provided example scripts and datasets</li>
+          <li><strong>Adapt to your needs:</strong> Modify code and parameters for your specific applications</li>
+          <li><strong>Cite properly:</strong> Use the provided citation information when publishing results</li>
+        </ol>
+
+        <h3>Citation Guidelines</h3>
+        <p>When using SOLIS resources in your research, please cite:</p>
+        <ul style="margin-left: 2rem;">
+          <li>The specific software/dataset DOI from Zenodo</li>
+          <li>The SOLIS project and grant acknowledgment</li>
+          <li>Relevant publications describing the methods or tools</li>
+        </ul>
+
+        <div class="highlight-box" style="background-color: #fff3cd; border-left-color: #ffb800;">
+          <h4>Example Citation:</h4>
+          <p style="font-family: monospace; font-size: 0.9rem;">
+            González, M., Jehl Li-Kao, Z., et al. (2024). Visual Synapse Characterization Platform v1.0 [Software]. Zenodo. https://doi.org/10.5281/zenodo.example
+          </p>
+          <p style="font-family: monospace; font-size: 0.9rem; margin-top: 1rem;">
+            This work was supported by the European Union's Horizon Europe research and innovation programme under Marie Skłodowska-Curie grant agreement No. [Grant Number] (SOLIS project).
+          </p>
+        </div>
+
+        <h3>Getting Help</h3>
+        <p>Need assistance with SOLIS resources?</p>
+        <ul style="margin-left: 2rem;">
+          <li><strong>GitHub Issues:</strong> Report bugs or request features on the respective repository</li>
+          <li><strong>Documentation:</strong> Check the docs/ folder in each repository for detailed guides</li>
+          <li><strong>Email Support:</strong> Contact us at <a href="mailto:zacharie.jehl@upc.edu">zacharie.jehl@upc.edu</a></li>
+          <li><strong>Workshops:</strong> Attend our training events (announced on News page)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contributing Section -->
+  <section>
+    <div class="container">
+      <div class="content-section">
+        <h2>Contributing to SOLIS</h2>
+        <p>
+          We welcome contributions from the research community! Whether it's bug fixes, new features, additional documentation, or dataset contributions, your input helps advance the field.
+        </p>
+        
+        <h3>Ways to Contribute</h3>
+        <ul style="margin-left: 2rem;">
+          <li><strong>Code contributions:</strong> Submit pull requests on GitHub</li>
+          <li><strong>Bug reports:</strong> Open issues with detailed descriptions and reproduction steps</li>
+          <li><strong>Documentation:</strong> Improve README files, add tutorials, fix typos</li>
+          <li><strong>Dataset sharing:</strong> Share your thin-film synapse measurements (contact us first)</li>
+          <li><strong>Feature requests:</strong> Suggest enhancements via GitHub issues</li>
+          <li><strong>Testing:</strong> Try our tools on different systems and report experiences</li>
+        </ul>
+
+        <p style="margin-top: 2rem;">
+          All contributors will be acknowledged in project documentation and publications. Significant contributions may lead to co-authorship opportunities.
+        </p>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        
+        <div class="footer-section">
+          <h4>About SOLIS</h4>
+          <p>
+            SOLIS is funded by the European Union's Horizon Europe research and innovation programme under the Marie Skłodowska-Curie grant agreement No. [Grant Number].
+          </p>
+          <div class="footer-logos">
+            <img src="assets/img/logo1.png" alt="European Union Flag">
+            <img src="assets/img/logo.png" alt="SOLIS Logo">
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul style="list-style: none;">
+            <li><a href="about.html" style="color: white;">About Project</a></li>
+            <li><a href="partners.html" style="color: white;">Consortium</a></li>
+            <li><a href="publications.html" style="color: white;">Publications</a></li>
+            <li><a href="resources.html" style="color: white;">Open Resources</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Connect With Us</h4>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/company/project-solis/" target="_blank" rel="noopener">
+              <span>🔗</span> LinkedIn
+            </a>
+            <a href="https://bsky.app/profile/project-solis.bsky.social" target="_blank" rel="noopener">
+              <span>🦋</span> Bluesky
+            </a>
+            <a href="https://github.com/SOLIS-project" target="_blank" rel="noopener">
+              <span>💻</span> GitHub
+            </a>
+            <a href="mailto:zacharie.jehl@upc.edu">
+              <span>📧</span> Email
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 SOLIS Project. Funded by the European Union. Views and opinions expressed are those of the authors only and do not necessarily reflect those of the European Union or the European Research Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
