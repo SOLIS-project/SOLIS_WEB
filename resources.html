@@ -121,181 +121,75 @@
   <section>
     <div class="container">
       <h2 class="section-title">Downloadable Resources</h2>
-      <p class="section-subtitle">Software packages, datasets, and documentation</p>
+      <p class="section-subtitle">Open-source software, guidelines, and modeling tools developed within SOLIS</p>
       
       <div class="resources-section">
-        
+  
         <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">Software Tools</h3>
         
         <ul class="downloads-list">
+  
+          <!-- Synapse Characterization Guidelines -->
           <li class="download-item">
             <div class="download-info">
-              <h4>Visual Synapse Characterization Platform v1.0</h4>
-              <p>Complete software package for automated measurement of synaptic plasticity functions. Includes Python control scripts, LabVIEW alternatives, and example datasets.</p>
+              <h4>Guidelines for Synapse Characterization</h4>
+              <p>
+                Documentation describing how to perform optoelectronic and neuromorphic characterization of artificial visual synapses using standard photovoltaic instrumentation.
+                Includes measurement flowcharts and reference protocols.
+              </p>
               <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 45 MB | <strong>License:</strong> MIT | <strong>Released:</strong> Month 12
+                <strong>Format:</strong> PDF | <strong>License:</strong> CC-BY 4.0 | 
+                <strong>DOI:</strong> <a href="https://zenodo.org/records/17371842" target="_blank" rel="noopener">10.5281/zenodo.17371842</a>
               </p>
             </div>
-            <a href="https://github.com/SOLIS-project/characterization-platform/releases/latest" target="_blank" rel="noopener" class="download-btn">
-              Download
+            <a href="https://zenodo.org/records/17371842" target="_blank" rel="noopener" class="download-btn">
+              View on Zenodo
             </a>
           </li>
-
+  
+          <!-- Dual-Channel Sourcemeter Controller -->
           <li class="download-item">
             <div class="download-info">
-              <h4>Synaptic Network Simulation Suite</h4>
-              <p>Python package for simulating neural networks using experimentally-measured synapse characteristics. Supports custom network topologies and standard ML benchmarks (MNIST, CIFAR-10).</p>
+              <h4>Software Controller for Dual-Channel Sourcemeter</h4>
+              <p>
+                Python-based control interface for dual-channel source-measure units (SMUs). 
+                Enables synchronized voltage/current sweeps and automated acquisition for artificial synapse testing.
+              </p>
               <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 28 MB | <strong>License:</strong> GPLv3 | <strong>Released:</strong> Month 45
+                <strong>Format:</strong> Python package | <strong>License:</strong> MIT | 
+                <strong>DOI:</strong> <a href="https://zenodo.org/records/17399837" target="_blank" rel="noopener">10.5281/zenodo.17399837</a>
               </p>
             </div>
-            <a href="https://github.com/SOLIS-project/synapse-network-simulator" target="_blank" rel="noopener" class="download-btn">
-              Download
+            <a href="https://zenodo.org/records/17399837" target="_blank" rel="noopener" class="download-btn">
+              View on Zenodo
             </a>
           </li>
-
+  
+          <!-- SOLEY Modeling Software -->
           <li class="download-item">
             <div class="download-info">
-              <h4>TCAD Device Models for Optical Memristors</h4>
-              <p>Sentaurus and SCAPS model files for simulating thin-film visual synapses. Includes parameter sets for CdTe, kesterite, and Sb₂Se₃ with validated defect models.</p>
+              <h4>SOLEY: Solar Cell and Optoelectronic Device Modeling Suite</h4>
+              <p>
+                Open-source software for full optoelectronic device modeling combining the transfer-matrix method (TMM) 
+                with an extended detailed-balance approach. 
+                Suitable for solar cells and photosynaptic devices under variable illumination.
+              </p>
               <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 12 MB | <strong>License:</strong> CC-BY 4.0 | <strong>Released:</strong> Month 36
+                <strong>Format:</strong> Python executable | <strong>License:</strong> MIT | 
+                <strong>DOI:</strong> <a href="https://zenodo.org/records/17492939" target="_blank" rel="noopener">10.5281/zenodo.17492939</a> | 
+                <strong>Website:</strong> <a href="https://zacharie-li-kao.github.io/SOLEY-PV/" target="_blank" rel="noopener">SOLEY-PV</a>
               </p>
             </div>
-            <a href="https://zenodo.org/record/example_tcad" target="_blank" rel="noopener" class="download-btn">
-              Download
+            <a href="https://zenodo.org/records/17492939" target="_blank" rel="noopener" class="download-btn">
+              View on Zenodo
             </a>
           </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>Data Analysis Toolkit for Synaptic Measurements</h4>
-              <p>Python scripts for extracting synaptic figures of merit from raw measurement data. Automated fitting routines for PPF, STDP, SRDP analysis.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 8 MB | <strong>License:</strong> MIT | <strong>Released:</strong> Month 18
-              </p>
-            </div>
-            <a href="https://github.com/SOLIS-project/analysis-toolkit" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
+  
         </ul>
-
-        <h3 style="color: var(--primary-color); margin: 3rem 0 1.5rem;">Datasets</h3>
-        
-        <ul class="downloads-list">
-          <li class="download-item">
-            <div class="download-info">
-              <h4>Reference Device Dataset: Kesterite Visual Synapses</h4>
-              <p>Comprehensive electrical and optical characterization data from Cu₂ZnSnSe₄-based synapses. Includes JV curves, transient photoconductivity, SRDP, STDP measurements under various illumination conditions.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 2.3 GB | <strong>Format:</strong> CSV, HDF5 | <strong>DOI:</strong> 10.5281/zenodo.example_ds1
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_ds1" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>DLTS Measurements on Sb₂Se₃ Devices</h4>
-              <p>Deep Level Transient Spectroscopy data showing trap state distributions in antimony selenide solar cells before and after light soaking. Temperature range: 80-340 K.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 450 MB | <strong>Format:</strong> CSV | <strong>DOI:</strong> 10.5281/zenodo.example_ds2
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_ds2" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>Electrochemical Impedance Spectroscopy Database</h4>
-              <p>EIS, Mott-Schottky, and photoelectrochemistry data from kesterite and chalcohalide devices. Systematic variation of interfaces and selective contacts.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 680 MB | <strong>Format:</strong> JSON, CSV | <strong>DOI:</strong> 10.5281/zenodo.example_ds3
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_ds3" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>DFT Calculation Results: Defects in Chalcogenides</h4>
-              <p>Complete density functional theory results for native defects and defect complexes in CZTSe, Sb₂Se₃, and SbSI. Formation energies, transition levels, and structural relaxations.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 3.1 GB | <strong>Format:</strong> JSON, VASP | <strong>DOI:</strong> 10.5281/zenodo.example_ds4
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_ds4" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-        </ul>
-
-        <h3 style="color: var(--primary-color); margin: 3rem 0 1.5rem;">Documentation & Reports</h3>
-        
-        <ul class="downloads-list">
-          <li class="download-item">
-            <div class="download-info">
-              <h4>D1.1: Characterization Platform Complete Documentation</h4>
-              <p>Hardware specifications, assembly instructions, calibration procedures, software manual, and troubleshooting guide for the open-source visual synapse characterization setup.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Pages:</strong> 85 | <strong>Format:</strong> PDF | <strong>Released:</strong> Month 10
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_d11" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>D3.1: Materials Characterization Report</h4>
-              <p>Comprehensive report identifying which thin-film solar cell technologies function as optical memristors. Includes systematic characterization of CdTe, kesterite, Sb₂Se₃, and Sb₂S₃.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Pages:</strong> 62 | <strong>Format:</strong> PDF | <strong>Released:</strong> Month 24
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_d31" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>Training Materials: Introduction to Visual Synapses</h4>
-              <p>Slide decks, video lectures, and hands-on tutorials from SOLIS training workshops. Covers basics of neuromorphic computing, device physics, and characterization methods.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Size:</strong> 420 MB | <strong>Format:</strong> PDF, MP4 | <strong>License:</strong> CC-BY 4.0
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_training" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-
-          <li class="download-item">
-            <div class="download-info">
-              <h4>Data Management Plan</h4>
-              <p>SOLIS project Data Management Plan following FAIR principles and Horizon Europe Open Science guidelines.</p>
-              <p style="font-size: 0.9rem; color: var(--secondary-color);">
-                <strong>Pages:</strong> 18 | <strong>Format:</strong> PDF | <strong>Released:</strong> Month 3
-              </p>
-            </div>
-            <a href="https://zenodo.org/record/example_dmp" target="_blank" rel="noopener" class="download-btn">
-              Download
-            </a>
-          </li>
-        </ul>
-
       </div>
     </div>
   </section>
+
 
   <!-- Usage Guidelines -->
   <section style="background-color: var(--light-bg);">
